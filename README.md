@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-locallasso
+Locally Adaptive Data Analytics for Large Separated Data Source
 ==========
 
 <!-- badges: start -->
 <!-- badges: end -->
-The goal of locallasso is to (COPY DESCRIPTION)
+This is a resource page for the locallasso package which allow to perform data analysis with separated data. 
 
 Installation
 ------------
