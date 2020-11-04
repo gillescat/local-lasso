@@ -10,6 +10,9 @@ This is a resource page for the locallasso package which allow to perform data a
 Background
 ------------
 
+![f1]
+[f1]: http://chart.apis.google.com/chart?cht=tx&chl=m=\frac{m_0}{\sqrt{1-{\frac{v^2}{c^2}}}}
+
 - <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 
 	\begin{align}\label{Local linear regression + penality}
