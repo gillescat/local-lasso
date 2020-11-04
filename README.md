@@ -12,7 +12,11 @@ Background
 
 _E = mc ^2^_
 
-Consider response variables _Y_{i}^_ and $d$-dimensional set of predictors denoted as $X_{i} = (X_{i1},...,X_{id})$, where observation pairs $(Y_{i},X_{i})$ are assumed to be independent and identically distributed. It is typically of interest to estimate the unknown smooth function, $m(X)$, which relates predictor variables to the response,
+<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+
+<img src="https://latex.codecogs.com/gif.latex?Y_{i}"/> 
+
+Consider response variables Y_{i} and $d$-dimensional set of predictors denoted as $X_{i} = (X_{i1},...,X_{id})$, where observation pairs $(Y_{i},X_{i})$ are assumed to be independent and identically distributed. It is typically of interest to estimate the unknown smooth function, $m(X)$, which relates predictor variables to the response,
 
 ![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20model.jpg?raw=true)
 
