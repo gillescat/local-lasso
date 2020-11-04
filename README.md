@@ -27,5 +27,5 @@ Installation
 You can install the released version of locallasso with:
 
 ``` r
-install_github("gillescat/local-lasso")
+install_github("gillescat/locallasso")
 ```
