@@ -14,11 +14,11 @@ Background
 
 <img src="https://latex.codecogs.com/gif.latex?m(X)"/>
 
-Consider response variables <img src="https://latex.codecogs.com/gif.latex?Y_{i}"/>  and <img src="https://latex.codecogs.com/gif.latex?d"/>-dimensional set of predictors denoted as <img src="https://latex.codecogs.com/gif.latex?X_{i} = (X_{i1},...,X_{id})"/>, where observation pairs <img src="https://latex.codecogs.com/gif.latex?(Y_{i},X_{i})"/> are assumed to be independent and identically distributed and <img src="https://latex.codecogs.com/gif.latex?m(X)"/> is the unknown smooth function which relates predictor variables to the response,
+Consider response variables Y, d-dimensional set of predictors X, unknown smooth function m(X) which relates predictor variables to the response,
 
-![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20model.jpg?raw=true)
+![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20model.jpg?raw=true).
 
-Our method
+The local lasso method predict the value of the response variable for a given point of interest.
 
 ![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20local%20lasso.jpg?raw=true)
 
