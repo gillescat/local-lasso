@@ -32,7 +32,7 @@ the \code{k} Approximated nearest neighbors (ANN) are located in the distributed
 A Local Kernel Weighted Linear Regression with LASSO penalty is then fitted to each random points.
 (Formula)
 The method uses local bandwidth such that each local model is fitted only with the k-ANN observations of each random points.
-The value of \lambda is selected with cross-validation.
+The value of lambda is selected with cross-validation.
 }
 \examples{
 

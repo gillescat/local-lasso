@@ -12,8 +12,8 @@ Depends:
    glmnet,
    KSgeneral,
    lattice,
-   Matrix,
-   plyr
+   plyr,
+   Matrix
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
