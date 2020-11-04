@@ -20,7 +20,7 @@ The optimization function corresponds to a local linear with local bandwitdh whe
 
 ![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20local%20lasso.jpg?raw=true)
 
-This minimization is solve using the coordinate descent algorithm.
+This minimization is solved using the coordinate descent algorithm.
 
 Installation
 ------------
