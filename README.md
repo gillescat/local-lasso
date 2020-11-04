@@ -10,7 +10,7 @@ The goal of locallasso is to (COPY DESCRIPTION)
 Installation
 ------------
 
-You can install the released version of locallasso from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of locallasso with:
 
 ``` r
 install_github("gillescat/local-lasso")
