@@ -13,7 +13,7 @@ Installation
 You can install the released version of locallasso from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("locallasso")
+install_github("gillescat/local-lasso")
 ```
 
 Example
