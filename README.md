@@ -1,31 +1,48 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Locally Adaptive Data Analytics for Large Separated Data Sources
+locallasso
 ==========
 
 <!-- badges: start -->
 <!-- badges: end -->
-This is a resource page for the locallasso package which allow to perform data analysis with separated data. 
-
-Background
-------------
-
-Consider response variables Y, d-dimensional set of predictors X, and unknown smooth function m(X) which relates predictor variables to the response,
-
-![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20model.jpg?raw=true). 
-Although each observation is following the same data generating process, data are separated in different data sources. 
-Our proposition is to gather the neighbouring observation of a given point of interest using ANN method and predict the value of the response variable at this given point.
-The optimization function corresponds to a local linear with local bandwitdh where we included a LASSO penalty to improve prediction, 
-
-![alt text](https://github.com/gillescat/locallasso/blob/main/Eq%20local%20lasso.jpg?raw=true)
-
-This minimization is solved using the coordinate descent algorithm. 
+The goal of locallasso is to (COPY DESCRIPTION)
 
 Installation
 ------------
 
-You can install the released version of locallasso with:
+You can install the released version of locallasso from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install_github("gillescat/locallasso")
+install.packages("locallasso")
 ```
+
+Example
+-------
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(locallasso)
+## basic example code
+```
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+``` r
+summary(cars)
+#>      speed           dist       
+#>  Min.   : 4.0   Min.   :  2.00  
+#>  1st Qu.:12.0   1st Qu.: 26.00  
+#>  Median :15.0   Median : 36.00  
+#>  Mean   :15.4   Mean   : 42.98  
+#>  3rd Qu.:19.0   3rd Qu.: 56.00  
+#>  Max.   :25.0   Max.   :120.00
+```
+
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+
+You can also embed plots, for example:
+
+<img src="man/figures/README-pressure-1.png" width="100%" />
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
