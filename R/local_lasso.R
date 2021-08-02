@@ -64,7 +64,6 @@
 #'ll_set = ll_settings(rand_sample, response = 'y', k=1000, e=1000, eps = 1)
 #'
 #'# First ann search
-#'for (x in 1:10) {
 #'  first_ann = foreach(i = 1:ndata, .combine = "comb", .packages=c('RANN')) %do% {
 #'    ann1 = ann_search(DD[[i]], ll_set, search='first')
 #'    ann_list = lapply(1:ll_set$e,
@@ -72,7 +71,6 @@
 #'  return(ann_list)
 #'}
 #'
-#'}
 #'# Local Lasso
 #'ll = local_lasso(first_ann, ll_set)
 #'
